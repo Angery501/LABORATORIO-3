@@ -41,9 +41,8 @@ turtle.goto(300, 0)
 turtle.pendown()
 dibujar_circulo()
 turtle.penup()
-turtle.goto(450, 0)  # Mover a la derecha
+turtle.goto(450, 0) 
 turtle.pendown()
 dibujar_rombo()
 
-# Finalizar
 turtle.done()
