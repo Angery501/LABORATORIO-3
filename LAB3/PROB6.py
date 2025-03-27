@@ -1,10 +1,7 @@
 import turtle
-
-# Configuración de la pantalla
 screen = turtle.Screen()
 screen.bgcolor("lightblue")
 
-# Función para dibujar una casa
 def draw_house():
     turtle.penup()
     turtle.goto(-50, -30)
@@ -22,8 +19,6 @@ def draw_house():
     turtle.goto(50, -30)
     turtle.goto(-50, -30)
     turtle.end_fill()
-
-# Función para dibujar el árbol
 def draw_tree():
     turtle.penup()
     turtle.goto(-100, -30)
@@ -42,8 +37,6 @@ def draw_tree():
     turtle.goto(-100, 30)
     turtle.goto(-120, -30)
     turtle.end_fill()
-
-# Función para dibujar un coche
 def draw_car():
     turtle.penup()
     turtle.goto(100, -50)
@@ -68,7 +61,6 @@ def draw_car():
     turtle.pendown()
     turtle.circle(10)
 
-# Función para dibujar el semáforo
 def draw_traffic_light():
     turtle.penup()
     turtle.goto(80, 0)
@@ -88,12 +80,10 @@ def draw_traffic_light():
     turtle.circle(10)
     turtle.end_fill()
 
-# Llamadas a las funciones
 draw_house()
 draw_tree()
 draw_car()
 draw_traffic_light()
 
-# Ocultar la tortuga y finalizar
 turtle.hideturtle()
 turtle.done()
