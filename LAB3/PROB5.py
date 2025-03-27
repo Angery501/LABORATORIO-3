@@ -1,6 +1,4 @@
 import turtle
-
-# Función para dibujar un cuadrado
 def dibujar_cuadrado():
     turtle.begin_fill()
     turtle.fillcolor("red")
@@ -9,7 +7,6 @@ def dibujar_cuadrado():
         turtle.right(90)
     turtle.end_fill()
 
-# Función para dibujar un triángulo
 def dibujar_triangulo():
     turtle.begin_fill()
     turtle.fillcolor("blue")
@@ -18,14 +15,11 @@ def dibujar_triangulo():
         turtle.left(120)
     turtle.end_fill()
 
-# Función para dibujar un círculo
 def dibujar_circulo():
     turtle.begin_fill()
     turtle.fillcolor("green")
     turtle.circle(50)
     turtle.end_fill()
-
-# Función para dibujar un rombo
 def dibujar_rombo():
     turtle.begin_fill()
     turtle.fillcolor("yellow")
@@ -36,17 +30,14 @@ def dibujar_rombo():
         turtle.right(120)
     turtle.end_fill()
 
-# Pantalla de configuración
 turtle.speed(1)
-
-# Dibujar figuras en una sola ventana
 dibujar_triangulo()
 turtle.penup()
-turtle.goto(150, 0)  # Mover a la derecha
+turtle.goto(150, 0)
 turtle.pendown()
 dibujar_cuadrado()
 turtle.penup()
-turtle.goto(300, 0)  # Mover a la derecha
+turtle.goto(300, 0)  
 turtle.pendown()
 dibujar_circulo()
 turtle.penup()
